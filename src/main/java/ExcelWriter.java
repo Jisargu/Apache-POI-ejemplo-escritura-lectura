@@ -23,15 +23,15 @@ public class ExcelWriter {
     static {
         Calendar dateOfBirth = Calendar.getInstance();
         dateOfBirth.set(1992, 7, 21);
-        employees.add(new Employee("Rajeev Singh", "rajeev@example.com",
+        employees.add(new Employee("Hola", "rajeev@example.com",
                 dateOfBirth.getTime(), 1200000.0));
 
         dateOfBirth.set(1965, 10, 15);
-        employees.add(new Employee("Thomas cook", "thomas@example.com",
+        employees.add(new Employee("Hola2", "thomas@example.com",
                 dateOfBirth.getTime(), 1500000.0));
 
         dateOfBirth.set(1987, 4, 18);
-        employees.add(new Employee("Steve Maiden", "steve@example.com",
+        employees.add(new Employee("Hola3", "steve@example.com",
                 dateOfBirth.getTime(), 1800000.0));
     }
 
