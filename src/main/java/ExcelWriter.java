@@ -23,15 +23,15 @@ public class ExcelWriter {
     static {
         Calendar dateOfBirth = Calendar.getInstance();
         dateOfBirth.set(1992, 7, 21);
-        employees.add(new Employee("Hola", "rajeev@example.com",
+        employees.add(new Employee("Uno", "rajeev@example.com",
                 dateOfBirth.getTime(), 1200000.0));
 
         dateOfBirth.set(1965, 10, 15);
-        employees.add(new Employee("Hola2", "thomas@example.com",
+        employees.add(new Employee("Dos", "thomas@example.com",
                 dateOfBirth.getTime(), 1500000.0));
 
         dateOfBirth.set(1987, 4, 18);
-        employees.add(new Employee("Hola3", "steve@example.com",
+        employees.add(new Employee("Tres", "steve@example.com",
                 dateOfBirth.getTime(), 1800000.0));
     }
 
@@ -45,7 +45,7 @@ public class ExcelWriter {
         CreationHelper createHelper = workbook.getCreationHelper();
 
         // Create a Sheet
-        Sheet sheet = workbook.createSheet("Employee");
+        Sheet sheet = workbook.createSheet("Employees");
 
         // Create a Font for styling header cells
         Font headerFont = workbook.createFont();
